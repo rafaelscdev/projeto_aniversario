@@ -24,6 +24,6 @@ const contaAsHoras = setInterval(function () {
 
     if (distanciaAteOEvento < 0) {
         clearInterval(contaAsHoras);
-        document.getElementById("contador").innerHTML = "Festa encerrada!"; // Mensagem adaptada
+        document.getElementById("contador").innerHTML = "Festa encerrada!";
     }
 }, 1000);

@@ -4,22 +4,18 @@
     padding: 80px 0;
 
     &--convidados {
-        // Adaptação para convidados
         background-image: linear-gradient(variables.$primaryColor, variables.$secondaryColor); // Rosa para pêssego
     }
 
     &--localizacao {
-        // Adaptação para localização
         background-image: linear-gradient(variables.$secondaryColor, variables.$accentColor); // Pêssego para amarelo
     }
 
     &--programacao {
-        // Adaptação para programação
         background-image: linear-gradient(variables.$accentColor, variables.$partyBlue); // Amarelo para azul
     }
 
     &--presentes {
-        // Adaptação para presentes
         background-image: linear-gradient(variables.$partyBlue, variables.$partyPurple); // Azul para roxo
     }
 
@@ -40,15 +36,15 @@
 
     &__details {
         &__title {
-            font-size: 24px; // Aumenta o tamanho do título
+            font-size: 24px;
             font-weight: bold;
             margin-bottom: 16px;
-            color: variables.$textColor; // Cor do texto branco
+            color: variables.$textColor;
         }
 
         &__description {
             line-height: 22px;
-            color: variables.$textColor; // Cor do texto branco
+            color: variables.$textColor;
         }
     }
 
