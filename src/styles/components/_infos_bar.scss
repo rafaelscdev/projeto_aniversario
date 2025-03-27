@@ -2,7 +2,7 @@
 
 .infos-bar {
     padding: 16px 24px;
-    background-color: variables.$textColor;
+    background-color: variables.$secondaryColor; // Cor pêssego claro
     display: flex;
     justify-content: space-between;
 
@@ -12,10 +12,10 @@
 
         &__item {
             font-size: 14px;
-            color: variables.$secondaryTextColor;
+            color: variables.$secondaryTextColor; // Cor preta
 
             b {
-                color: variables.$secondaryTextColor;
+                color: variables.$primaryColor; // Cor rosa
                 font-size: 18px;
                 display: block;
             }

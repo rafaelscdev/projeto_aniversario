@@ -3,20 +3,24 @@
 .event {
     padding: 80px 0;
 
-    &--frontend {
-        background-image: linear-gradient(variables.$blue1, variables.$blue2);
+    &--convidados {
+        // Adaptação para convidados
+        background-image: linear-gradient(variables.$primaryColor, variables.$secondaryColor); // Rosa para pêssego
     }
 
-    &--ux-ui {
-        background-image: linear-gradient(variables.$blue2, variables.$pink);
+    &--localizacao {
+        // Adaptação para localização
+        background-image: linear-gradient(variables.$secondaryColor, variables.$accentColor); // Pêssego para amarelo
     }
 
-    &--data-science{
-        background-image: linear-gradient(variables.$pink, variables.$yellow);
+    &--programacao {
+        // Adaptação para programação
+        background-image: linear-gradient(variables.$accentColor, variables.$partyBlue); // Amarelo para azul
     }
 
-    &--backend {
-        background-image: linear-gradient(variables.$yellow, variables.$pink);
+    &--presentes {
+        // Adaptação para presentes
+        background-image: linear-gradient(variables.$partyBlue, variables.$partyPurple); // Azul para roxo
     }
 
     &--image-left {
@@ -36,13 +40,15 @@
 
     &__details {
         &__title {
-            font-size: 18px;
+            font-size: 24px; // Aumenta o tamanho do título
             font-weight: bold;
             margin-bottom: 16px;
+            color: variables.$textColor; // Cor do texto branco
         }
 
         &__description {
             line-height: 22px;
+            color: variables.$textColor; // Cor do texto branco
         }
     }
 
